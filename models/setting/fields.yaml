@@ -1,0 +1,20 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    domain:
+        label: power2all.multisite::lang.domain.label 
+        type: text
+        comment: power2all.multisite::lang.domain.comment
+
+    theme:
+        label: power2all.multisite::lang.domain.theme-label
+        type: dropdown
+        comment: power2all.multisite::lang.domain.theme-comment
+
+    is_protected:
+        label: power2all.multisite::lang.domain.protect-label
+        type: checkbox
+        default: false
+        comment: power2all.multisite::lang.domain.protect-comment
